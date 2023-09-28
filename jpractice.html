@@ -1,0 +1,57 @@
+<!-- 
+Your name: Mohsin Choudhary
+Class:  Web Dev 
+Teacher: Mr. Irmina 
+Date: 9/27/23
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style></style>
+    <script>
+        function initiallize(){
+            outputDiv = document.getElementById("divout");
+            num1 = 3;
+            num2 = 7;
+
+        }
+        function clickResponse()
+        {
+            outputDiv.innerHTML="Now youve clicked the button"
+        }
+        function addNumbers(){
+            var result = num1 = num2;
+            console.log(result);
+        }
+        function subtractNumbers(){
+
+        }
+        function multiplyNumbers(){
+            
+        }
+        function divideNumbers(){
+            
+        }
+        function greet()
+        {
+            console.log("Hello World");
+
+        }
+        function shoutTen()
+        {
+            console.log("10");
+        }
+    </script>
+</head>
+<body onload ="greet(); initiallize();">
+    <button onclick = "shoutTen();">Shout 10</button>
+    <button onclick = "addNumbers();"> Add the 2 Numbers</button>
+    <div id = "divout">
+        You have not clicked the button
+    </div>
+    <button onclick = "clickResponse();"> Click me!</button>
+</body>
+</html>
